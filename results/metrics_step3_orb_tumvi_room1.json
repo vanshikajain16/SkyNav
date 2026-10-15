@@ -1,0 +1,473 @@
+{
+  "frontend": "orb",
+  "frames": 2821,
+  "ok_frames": 2125,
+  "ok_percent": 75.32789790854308,
+  "lost_frames": 440,
+  "uninit_frames": 256,
+  "map_segments_used": 40,
+  "reinitialisations": 39,
+  "fps": 14.930501432651614,
+  "ate_rmse_sim3_per_segment_m": 0.43288521719011014,
+  "ate_poses": 1945,
+  "segments": [
+    {
+      "segment": 0,
+      "poses": 118,
+      "rmse_m": 0.5915582751577773,
+      "scale_m_per_unit": 0.5082688371850316,
+      "first_frame": 115,
+      "last_frame": 232
+    },
+    {
+      "segment": 1,
+      "poses": 130,
+      "rmse_m": 0.4261821456492547,
+      "scale_m_per_unit": 0.37222004984371365,
+      "first_frame": 246,
+      "last_frame": 375
+    },
+    {
+      "segment": 2,
+      "poses": 67,
+      "rmse_m": 0.1784002417615778,
+      "scale_m_per_unit": 0.10679808812615298,
+      "first_frame": 388,
+      "last_frame": 455
+    },
+    {
+      "segment": 3,
+      "poses": 50,
+      "rmse_m": 0.1774965944246349,
+      "scale_m_per_unit": 0.3014702543554323,
+      "first_frame": 470,
+      "last_frame": 530
+    },
+    {
+      "segment": 4,
+      "poses": 74,
+      "rmse_m": 0.2886929253046895,
+      "scale_m_per_unit": 0.24619997664905494,
+      "first_frame": 547,
+      "last_frame": 620
+    },
+    {
+      "segment": 5,
+      "poses": 132,
+      "rmse_m": 0.521037331241461,
+      "scale_m_per_unit": 0.4367759900616902,
+      "first_frame": 637,
+      "last_frame": 768
+    },
+    {
+      "segment": 7,
+      "poses": 105,
+      "rmse_m": 0.4170090496649536,
+      "scale_m_per_unit": 0.3635425971821549,
+      "first_frame": 814,
+      "last_frame": 918
+    },
+    {
+      "segment": 8,
+      "poses": 30,
+      "rmse_m": 0.1407199698886317,
+      "scale_m_per_unit": 0.6127801201000738,
+      "first_frame": 934,
+      "last_frame": 963
+    },
+    {
+      "segment": 9,
+      "poses": 54,
+      "rmse_m": 0.23178827051995843,
+      "scale_m_per_unit": 0.6953075651542089,
+      "first_frame": 978,
+      "last_frame": 1031
+    },
+    {
+      "segment": 10,
+      "poses": 48,
+      "rmse_m": 0.2518470257845476,
+      "scale_m_per_unit": 0.20067492605581405,
+      "first_frame": 1044,
+      "last_frame": 1092
+    },
+    {
+      "segment": 12,
+      "poses": 80,
+      "rmse_m": 0.23186804983416168,
+      "scale_m_per_unit": 0.39220093093159875,
+      "first_frame": 1133,
+      "last_frame": 1212
+    },
+    {
+      "segment": 13,
+      "poses": 37,
+      "rmse_m": 0.19642250851732437,
+      "scale_m_per_unit": 0.6451806737852244,
+      "first_frame": 1228,
+      "last_frame": 1264
+    },
+    {
+      "segment": 14,
+      "poses": 87,
+      "rmse_m": 0.22411857875269936,
+      "scale_m_per_unit": 0.25461468831605033,
+      "first_frame": 1282,
+      "last_frame": 1368
+    },
+    {
+      "segment": 15,
+      "poses": 24,
+      "rmse_m": 0.0816542681812608,
+      "scale_m_per_unit": 0.22401309947847997,
+      "first_frame": 1383,
+      "last_frame": 1406
+    },
+    {
+      "segment": 16,
+      "poses": 127,
+      "rmse_m": 0.8496511968394905,
+      "scale_m_per_unit": 0.6347457679165894,
+      "first_frame": 1421,
+      "last_frame": 1555
+    },
+    {
+      "segment": 20,
+      "poses": 45,
+      "rmse_m": 0.25309385644958465,
+      "scale_m_per_unit": 0.4922917445204964,
+      "first_frame": 1637,
+      "last_frame": 1681
+    },
+    {
+      "segment": 21,
+      "poses": 142,
+      "rmse_m": 0.10964940524672485,
+      "scale_m_per_unit": 0.17037072771538442,
+      "first_frame": 1695,
+      "last_frame": 1840
+    },
+    {
+      "segment": 28,
+      "poses": 48,
+      "rmse_m": 0.47479086317185665,
+      "scale_m_per_unit": 0.16512670007802122,
+      "first_frame": 1996,
+      "last_frame": 2043
+    },
+    {
+      "segment": 30,
+      "poses": 310,
+      "rmse_m": 0.5883835259356741,
+      "scale_m_per_unit": 0.11201006610228392,
+      "first_frame": 2088,
+      "last_frame": 2404
+    },
+    {
+      "segment": 35,
+      "poses": 20,
+      "rmse_m": 0.11731571302039168,
+      "scale_m_per_unit": 0.2747331155341253,
+      "first_frame": 2510,
+      "last_frame": 2529
+    },
+    {
+      "segment": 36,
+      "poses": 85,
+      "rmse_m": 0.1518177259551064,
+      "scale_m_per_unit": 0.17954452141424737,
+      "first_frame": 2544,
+      "last_frame": 2635
+    },
+    {
+      "segment": 37,
+      "poses": 39,
+      "rmse_m": 0.09056640446875841,
+      "scale_m_per_unit": 0.21067548000166447,
+      "first_frame": 2650,
+      "last_frame": 2688
+    },
+    {
+      "segment": 38,
+      "poses": 45,
+      "rmse_m": 0.19696503609604893,
+      "scale_m_per_unit": 0.37370062352316485,
+      "first_frame": 2705,
+      "last_frame": 2751
+    },
+    {
+      "segment": 39,
+      "poses": 48,
+      "rmse_m": 0.04252991300690912,
+      "scale_m_per_unit": 0.2089536856444791,
+      "first_frame": 2765,
+      "last_frame": 2820
+    }
+  ],
+  "T_cam_imu_check": {
+    "pairs": 20,
+    "rot_err_A": 14.522810927511063,
+    "rot_err_B": 14.61703800007063,
+    "dir_err_A": 32.9855371623098,
+    "dir_err_B": 33.02737724037447,
+    "pairs_won_by_A": 8,
+    "pairs_won_by_B": 12,
+    "Rc_rotation_angle_deg": 179.1189528860991,
+    "trajectory_ate_sim3_A_m": 0.43288521719011014,
+    "trajectory_ate_sim3_B_m": 0.43175091700148216,
+    "verdict": "A: T_cam_imu maps IMU-frame points to the camera frame (T_wc = T_wi inv(T_cam_imu))",
+    "evidence": "trajectory ATE indistinguishable (<2%); pair test only, weak evidence",
+    "per_pair": [
+      {
+        "i": 115,
+        "j": 125.0,
+        "rot_err_A": 1.0977212311365452,
+        "dir_err_A": 14.552395149892245,
+        "rot_err_B": 1.146834976401465,
+        "dir_err_B": 12.786689022832727
+      },
+      {
+        "i": 205,
+        "j": 215.0,
+        "rot_err_A": 9.221143952022466,
+        "dir_err_A": 31.477742816027646,
+        "rot_err_B": 9.213976469785932,
+        "dir_err_B": 29.98380591973985
+      },
+      {
+        "i": 320,
+        "j": 330.0,
+        "rot_err_A": 7.029031917318807,
+        "dir_err_A": 11.459219620478645,
+        "rot_err_B": 6.960422757240618,
+        "dir_err_B": 12.375476801171933
+      },
+      {
+        "i": 434,
+        "j": 444.0,
+        "rot_err_A": 14.018659589121624,
+        "dir_err_A": 121.8912816231327,
+        "rot_err_B": 14.226621886890658,
+        "dir_err_B": 122.8435520532831
+      },
+      {
+        "i": 595,
+        "j": 605.0,
+        "rot_err_A": 8.816519946426606,
+        "dir_err_A": 40.8683195938792,
+        "rot_err_B": 9.246533997934334,
+        "dir_err_B": 39.24150150238522
+      },
+      {
+        "i": 711,
+        "j": 721.0,
+        "rot_err_A": 4.479567313724641,
+        "dir_err_A": 19.40424459347737,
+        "rot_err_B": 3.8425338000733658,
+        "dir_err_B": 20.22959424784731
+      },
+      {
+        "i": 853,
+        "j": 863.0,
+        "rot_err_A": 2.0954367857899774,
+        "dir_err_A": 6.486225709993928,
+        "rot_err_B": 1.6497166200496198,
+        "dir_err_B": 6.458000591054435
+      },
+      {
+        "i": 991,
+        "j": 1001.0,
+        "rot_err_A": 3.6887793503296855,
+        "dir_err_A": 13.437349779649173,
+        "rot_err_B": 3.4853425839532117,
+        "dir_err_B": 13.237845568958653
+      },
+      {
+        "i": 1153,
+        "j": 1163.0,
+        "rot_err_A": 1.0677964624803928,
+        "dir_err_A": 2.020967604660594,
+        "rot_err_B": 1.5910439603970494,
+        "dir_err_B": 2.058081070639029
+      },
+      {
+        "i": 1295,
+        "j": 1305.0,
+        "rot_err_A": 10.256831165518445,
+        "dir_err_A": 24.539366212697832,
+        "rot_err_B": 10.142651066725094,
+        "dir_err_B": 24.262820472600147
+      },
+      {
+        "i": 1449,
+        "j": 1459.0,
+        "rot_err_A": 14.017166346975586,
+        "dir_err_A": 58.40056035517415,
+        "rot_err_B": 14.468796882324131,
+        "dir_err_B": 57.440163894327114
+      },
+      {
+        "i": 1538,
+        "j": 1548.0,
+        "rot_err_A": 179.0515768409436,
+        "dir_err_A": 132.58508956452786,
+        "rot_err_B": 178.44873798422248,
+        "dir_err_B": 135.56741984943798
+      },
+      {
+        "i": 1739,
+        "j": 1749.0,
+        "rot_err_A": 1.8542342724253074,
+        "dir_err_A": 3.392551917814477,
+        "rot_err_B": 1.9434138916405117,
+        "dir_err_B": 3.2006144042451212
+      },
+      {
+        "i": 1899,
+        "j": 1909.0,
+        "rot_err_A": 6.358145047588165,
+        "dir_err_A": 17.978427207011666,
+        "rot_err_B": 6.232522425047082,
+        "dir_err_B": 19.340736986178246
+      },
+      {
+        "i": 2115,
+        "j": 2125.0,
+        "rot_err_A": 17.382001589947432,
+        "dir_err_A": 73.96697528809469,
+        "rot_err_B": 17.081230997815126,
+        "dir_err_B": 75.58743713140105
+      },
+      {
+        "i": 2206,
+        "j": 2216.0,
+        "rot_err_A": 2.3174286704392935,
+        "dir_err_A": 3.4097963727088136,
+        "rot_err_B": 2.416475522743318,
+        "dir_err_B": 2.806592767452499
+      },
+      {
+        "i": 2295,
+        "j": 2305.0,
+        "rot_err_A": 1.4219944174207613,
+        "dir_err_A": 11.747273168415909,
+        "rot_err_B": 1.6054751242769203,
+        "dir_err_B": 15.597557098367481
+      },
+      {
+        "i": 2461,
+        "j": 2471.0,
+        "rot_err_A": 2.5066479158567705,
+        "dir_err_A": 14.315248922080723,
+        "rot_err_B": 4.075072915277853,
+        "dir_err_B": 12.629107495929894
+      },
+      {
+        "i": 2653,
+        "j": 2663.0,
+        "rot_err_A": 2.320992965306666,
+        "dir_err_A": 9.816339365161767,
+        "rot_err_B": 3.10714445165286,
+        "dir_err_B": 8.161278504092557
+      },
+      {
+        "i": 2806,
+        "j": 2816.0,
+        "rot_err_A": 1.454542769448411,
+        "dir_err_A": 47.9613683813166,
+        "rot_err_B": 1.4562116869610262,
+        "dir_err_B": 46.739269425545
+      }
+    ]
+  },
+  "failures": {
+    "lost_episodes": 58,
+    "longest_lost_run_frames": 10,
+    "uninit_episodes": 40,
+    "longest_uninit_run_frames": 115,
+    "uninit_runs_start_length": [
+      [
+        0,
+        115
+      ],
+      [
+        243,
+        3
+      ],
+      [
+        386,
+        2
+      ],
+      [
+        466,
+        4
+      ],
+      [
+        541,
+        6
+      ],
+      [
+        631,
+        6
+      ],
+      [
+        779,
+        9
+      ],
+      [
+        810,
+        4
+      ],
+      [
+        929,
+        5
+      ],
+      [
+        974,
+        4
+      ],
+      [
+        1042,
+        2
+      ],
+      [
+        1103,
+        3
+      ],
+      [
+        1128,
+        5
+      ],
+      [
+        1223,
+        5
+      ],
+      [
+        1275,
+        7
+      ],
+      [
+        1379,
+        4
+      ],
+      [
+        1417,
+        4
+      ],
+      [
+        1566,
+        2
+      ],
+      [
+        1585,
+        4
+      ],
+      [
+        1613,
+        5
+      ]
+    ],
+    "min_inliers_when_ok": 15,
+    "median_inliers_when_ok": 58.0
+  }
+}

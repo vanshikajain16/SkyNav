@@ -1,0 +1,80 @@
+{
+  "none": {
+    "compensation": "none",
+    "frames": 2703,
+    "target_visible_frames": 771,
+    "target_reported_frames": 524,
+    "target_reported_fraction": 0.6796368352788587,
+    "identity_switches_on_target": 59,
+    "gt_pose": {
+      "n": 524,
+      "rmse_m": 0.058852050275314774,
+      "median_m": 0.03668318149961573,
+      "p95_m": 0.11756877265080685
+    },
+    "fused_est_scale": {
+      "n": 524,
+      "rmse_m": 0.5933023261679591,
+      "median_m": 0.4095128650347245,
+      "p95_m": 1.1171586264425493
+    },
+    "imu_only": {
+      "n": 35,
+      "rmse_m": 0.7330391752032587,
+      "median_m": 0.46735805856442814,
+      "p95_m": 1.1891397194915487
+    }
+  },
+  "fused": {
+    "compensation": "fused",
+    "frames": 2703,
+    "target_visible_frames": 771,
+    "target_reported_frames": 625,
+    "target_reported_fraction": 0.8106355382619974,
+    "identity_switches_on_target": 34,
+    "gt_pose": {
+      "n": 625,
+      "rmse_m": 0.04460407422158237,
+      "median_m": 0.027927716022180454,
+      "p95_m": 0.09028257705343773
+    },
+    "fused_est_scale": {
+      "n": 625,
+      "rmse_m": 0.6069808045543241,
+      "median_m": 0.45016889287180833,
+      "p95_m": 1.1228988863888432
+    },
+    "imu_only": {
+      "n": 39,
+      "rmse_m": 0.7553017786991407,
+      "median_m": 0.5082040803714929,
+      "p95_m": 1.2030877455243527
+    }
+  },
+  "gt": {
+    "compensation": "gt",
+    "frames": 2703,
+    "target_visible_frames": 771,
+    "target_reported_frames": 625,
+    "target_reported_fraction": 0.8106355382619974,
+    "identity_switches_on_target": 34,
+    "gt_pose": {
+      "n": 625,
+      "rmse_m": 0.04333962238466369,
+      "median_m": 0.02689526614983325,
+      "p95_m": 0.09083462983506115
+    },
+    "fused_est_scale": {
+      "n": 625,
+      "rmse_m": 0.6072849029162658,
+      "median_m": 0.44842434164464484,
+      "p95_m": 1.1222153859526163
+    },
+    "imu_only": {
+      "n": 39,
+      "rmse_m": 0.7553297643720776,
+      "median_m": 0.5083661450590125,
+      "p95_m": 1.2030790953235457
+    }
+  }
+}

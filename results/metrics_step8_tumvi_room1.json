@@ -1,0 +1,130 @@
+{
+  "baseline": {
+    "unaligned_m": 0.5462557819229671,
+    "global_se3_m": 0.32087199690517976,
+    "per_segment_se3_m": 0.16063988565398096
+  },
+  "vision_only_sim3_per_segment_m": 0.3429615197850463,
+  "A update_every:1": {
+    "unaligned_m": 0.5616921536813076,
+    "global_se3_m": 0.4356501250936724,
+    "per_segment_se3_m": 0.18826094379130692
+  },
+  "A update_every:2": {
+    "unaligned_m": 0.5491508695762491,
+    "global_se3_m": 0.36385605520823194,
+    "per_segment_se3_m": 0.1691721525631563
+  },
+  "A update_every:5": {
+    "unaligned_m": 0.5462557819229671,
+    "global_se3_m": 0.32087199690517976,
+    "per_segment_se3_m": 0.16063988565398096
+  },
+  "A update_every:10": {
+    "unaligned_m": 0.47860598317601527,
+    "global_se3_m": 0.27489570404950814,
+    "per_segment_se3_m": 0.16833355489438748
+  },
+  "A update_every:20": {
+    "unaligned_m": 0.8568615015987519,
+    "global_se3_m": 0.5091190093606982,
+    "per_segment_se3_m": 0.3283597692724215
+  },
+  "B sigma_t_rel:0.01": {
+    "unaligned_m": 0.47431948613479413,
+    "global_se3_m": 0.2824455830217108,
+    "per_segment_se3_m": 0.14915520059950838
+  },
+  "B sigma_t_rel:0.02": {
+    "unaligned_m": 0.5462557819229671,
+    "global_se3_m": 0.32087199690517976,
+    "per_segment_se3_m": 0.16063988565398096
+  },
+  "B sigma_t_rel:0.05": {
+    "unaligned_m": 0.6369543770112642,
+    "global_se3_m": 0.36628340175812335,
+    "per_segment_se3_m": 0.1944995527191833
+  },
+  "B sigma_t_rel:0.1": {
+    "unaligned_m": 0.810334937607556,
+    "global_se3_m": 0.4583930089969993,
+    "per_segment_se3_m": 0.24421874810352964
+  },
+  "B sigma_t_rel:0.15": {
+    "unaligned_m": 0.9889395629194458,
+    "global_se3_m": 0.5661193843949938,
+    "per_segment_se3_m": 0.2871433525992867
+  },
+  "B sigma_t_rel:0.3": {
+    "unaligned_m": 1.4006571034081148,
+    "global_se3_m": 0.8394547423373006,
+    "per_segment_se3_m": 0.4189301529972691
+  },
+  "B sigma_t_rel:0.6": {
+    "unaligned_m": 2.1226146082772988,
+    "global_se3_m": 1.272462982660298,
+    "per_segment_se3_m": 0.7053906903891805
+  },
+  "C imu_noise_x:0.5": {
+    "unaligned_m": 0.4871132860486869,
+    "global_se3_m": 0.28764676357893354,
+    "per_segment_se3_m": 0.1588962026686962
+  },
+  "C imu_noise_x:1.0": {
+    "unaligned_m": 0.5462557819229671,
+    "global_se3_m": 0.32087199690517976,
+    "per_segment_se3_m": 0.16063988565398096
+  },
+  "C imu_noise_x:2.0": {
+    "unaligned_m": 0.6088464074108416,
+    "global_se3_m": 0.37354461543448464,
+    "per_segment_se3_m": 0.16879195084624585
+  },
+  "C imu_noise_x:4.0": {
+    "unaligned_m": 0.6790184890051568,
+    "global_se3_m": 0.44743988101375287,
+    "per_segment_se3_m": 0.18171559847649998
+  },
+  "D vo_dropped:0.3": {
+    "unaligned_m": 0.5322623543736743,
+    "global_se3_m": 0.3079139174082778,
+    "per_segment_se3_m": 0.1641000577345015,
+    "std_per_segment_se3_m": 0.004187310941453936
+  },
+  "D vo_dropped:0.6": {
+    "unaligned_m": 0.6106261431077634,
+    "global_se3_m": 0.4100267486257733,
+    "per_segment_se3_m": 0.23284725091486058,
+    "std_per_segment_se3_m": 0.01503739892294829
+  },
+  "D vo_dropped:0.9": {
+    "unaligned_m": 25.53527851207498,
+    "global_se3_m": 17.92909942545064,
+    "per_segment_se3_m": 14.548719801843282,
+    "std_per_segment_se3_m": 6.997478233371296
+  },
+  "E clahe_off": {
+    "unaligned_m": 1.1123972271866995,
+    "global_se3_m": 0.6410775391284,
+    "per_segment_se3_m": 0.21335216927986347,
+    "vision_only_sim3_per_segment_m": 0.28209448737982434,
+    "ok_fraction": 0.7688762850053172,
+    "n_segments": 24
+  },
+  "E mask_radius_180": {
+    "unaligned_m": 0.928625827839499,
+    "global_se3_m": 0.5636699950542619,
+    "per_segment_se3_m": 0.2752878836792878,
+    "vision_only_sim3_per_segment_m": 0.568335015186794,
+    "ok_fraction": 0.890818858560794,
+    "n_segments": 11
+  },
+  "E no_depth_gating": {
+    "unaligned_m": 0.49786541202761214,
+    "global_se3_m": 0.3301860333510241,
+    "per_segment_se3_m": 0.1319418160165587,
+    "vision_only_sim3_per_segment_m": 0.2803180196504204,
+    "ok_fraction": 0.9184686281460475,
+    "n_segments": 9
+  }
+}

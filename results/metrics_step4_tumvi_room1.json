@@ -1,0 +1,31 @@
+{
+  "frames_compared": 2613,
+  "segments": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "vision_only_sim3_per_segment_rmse_m": 0.3429615197850463,
+  "imuonly": {
+    "unaligned_rmse_m": 246.38474010168332,
+    "global_se3_rmse_m": 165.33995385044585,
+    "per_segment_se3_rmse_m": 37.600358742669265
+  },
+  "gtscale": {
+    "unaligned_rmse_m": 0.4019678217096059,
+    "global_se3_rmse_m": 0.24263662319827478,
+    "per_segment_se3_rmse_m": 0.09964252555092981
+  },
+  "estscale": {
+    "unaligned_rmse_m": 0.5462557819229671,
+    "global_se3_rmse_m": 0.32087199690517976,
+    "per_segment_se3_rmse_m": 0.16063988565398096
+  },
+  "scale_median_abs_rel_error_vs_segment_reference": 0.13591776825955915,
+  "scale_frames_evaluated": 2453
+}

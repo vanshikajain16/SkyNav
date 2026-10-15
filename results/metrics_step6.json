@@ -1,0 +1,98 @@
+{
+  "synthetic_clean_tracker": {
+    "MOTA": 0.9398805078416729,
+    "FN": 159,
+    "FP": 2,
+    "IDSW": 0,
+    "GT": 2678,
+    "recall": 0.9406273338312173,
+    "precision": 0.9992066640222134,
+    "mostly_tracked": 1.0
+  },
+  "synthetic_clean_raw_detections": {
+    "MOTA": -0.04032860343539957,
+    "FN": 151,
+    "FP": 113,
+    "IDSW": 2522,
+    "GT": 2678,
+    "recall": 0.943614637789395,
+    "precision": 0.9571969696969697,
+    "mostly_tracked": 1.0
+  },
+  "synthetic_hard_tracker": {
+    "MOTA": 0.7471994025392084,
+    "FN": 664,
+    "FP": 10,
+    "IDSW": 3,
+    "GT": 2678,
+    "recall": 0.7520537714712472,
+    "precision": 0.9950592885375494,
+    "mostly_tracked": 0.0
+  },
+  "synthetic_hard_raw_detections": {
+    "MOTA": -0.22031366691560872,
+    "FN": 668,
+    "FP": 595,
+    "IDSW": 2005,
+    "GT": 2678,
+    "recall": 0.7505601194921583,
+    "precision": 0.7715930902111324,
+    "mostly_tracked": 0.0
+  },
+  "real_room1_detector": {
+    "raw": {
+      "frames": 565,
+      "frames_with_detection": 214,
+      "ms_per_frame": 14.861852088860706,
+      "top_classes": [
+        [
+          "clock",
+          66
+        ],
+        [
+          "tv",
+          49
+        ],
+        [
+          "chair",
+          39
+        ],
+        [
+          "microwave",
+          31
+        ],
+        [
+          "train",
+          15
+        ]
+      ]
+    },
+    "clahe": {
+      "frames": 565,
+      "frames_with_detection": 246,
+      "ms_per_frame": 15.207070797945546,
+      "top_classes": [
+        [
+          "clock",
+          99
+        ],
+        [
+          "refrigerator",
+          37
+        ],
+        [
+          "train",
+          32
+        ],
+        [
+          "tv",
+          29
+        ],
+        [
+          "chair",
+          27
+        ]
+      ]
+    }
+  }
+}

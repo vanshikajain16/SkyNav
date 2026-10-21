@@ -1,4 +1,4 @@
-# Core stack, Python 3.12, native Windows 11. Versions that resolved on 2026-10-15.
+# Core stack, Python 3.12, native Windows 11. Versions that resolved on 2026-10-21.
 numpy==2.5.4
 scipy==1.18.1
 matplotlib==3.11.2
@@ -6,4 +6,9 @@ opencv-python==4.14.0.94
 PyYAML==6.0.3
 evo==1.38.0
 rosbags==0.11.7
-onnxruntime==1.31.0
+# Detection runtime: DirectML build (GPU on Windows, also contains the CPU provider). Replaces plain onnxruntime.
+onnxruntime-directml==1.24.4
+# Tracking metrics (v1.4.0 calls a removed NumPy function in its distance helpers; eval code avoids that function)
+motmetrics==1.4.0
+# Dataset download helper (Google Drive)
+gdown==6.4.2

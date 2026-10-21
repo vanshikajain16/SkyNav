@@ -48,6 +48,10 @@ REGISTRY = {                                                         # known dat
 }
 
 
+REGISTRY["tumvi_room4"] = DatasetSpec(                              # TUM VI room4: same export layout as room1
+    **{**REGISTRY["tumvi_room1"].__dict__, "name": "tumvi_room4", "root": PROJECT_ROOT / "data" / "tumvi" / "room4"})   # only name and folder differ
+
+
 @dataclass                                                           # IMU samples
 class ImuData:
     t_ns: np.ndarray                                                 # (N,) int64 nanoseconds
@@ -267,6 +271,7 @@ class Sequence:                                                      # everythin
         return to_uint8(self.frame_raw(i), self.spec.gray_shift)     # convert
 
     def T_w_c_gt(self, t_ns) -> np.ndarray:                          # GT camera poses, (N,4,4)
+        t_ns = np.clip(np.asarray(t_ns, dtype=np.int64), self.gt.t_ns[0], self.gt.t_ns[-1])   # edge frames use the nearest GT pose
         p, R = self.gt.interp(t_ns)                                  # IMU pose in world
         n = len(np.atleast_1d(t_ns))                                 # count
         T_w_i = np.tile(np.eye(4), (n, 1, 1))                        # allocate transforms

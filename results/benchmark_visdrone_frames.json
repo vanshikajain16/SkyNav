@@ -1,0 +1,93 @@
+{
+  "hardware": {
+    "cpu": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU (6 GB), DirectML",
+    "onnxruntime": "1.24.4"
+  },
+  "rows": [
+    {
+      "model": "yolox_nano",
+      "input": 416,
+      "provider_requested": "cpu",
+      "provider_used": "CPUExecutionProvider",
+      "frames": 200,
+      "mean_ms": 11.034920501988381,
+      "p50_ms": 11.08314999146387,
+      "p95_ms": 12.228699983097613,
+      "fps_mean": 90.62140500421458,
+      "pre_ms": 1.023699501529336,
+      "infer_ms": 9.097417499287985,
+      "post_ms": 0.9138035011710599
+    },
+    {
+      "model": "yolox_nano",
+      "input": 416,
+      "provider_requested": "dml",
+      "provider_used": "DmlExecutionProvider",
+      "frames": 200,
+      "mean_ms": 5.604426501668058,
+      "p50_ms": 4.458799958229065,
+      "p95_ms": 5.422795019694601,
+      "fps_mean": 178.43038885466117,
+      "pre_ms": 0.8217394992243499,
+      "infer_ms": 3.9567394996993244,
+      "post_ms": 0.8259475027443841
+    },
+    {
+      "model": "yolox_tiny",
+      "input": 416,
+      "provider_requested": "cpu",
+      "provider_used": "CPUExecutionProvider",
+      "frames": 200,
+      "mean_ms": 27.325683998933528,
+      "p50_ms": 24.68070000759326,
+      "p95_ms": 32.98881502705626,
+      "fps_mean": 36.595607269667184,
+      "pre_ms": 1.261495997896418,
+      "infer_ms": 24.793191003554966,
+      "post_ms": 1.2709969974821433
+    },
+    {
+      "model": "yolox_tiny",
+      "input": 416,
+      "provider_requested": "dml",
+      "provider_used": "DmlExecutionProvider",
+      "frames": 200,
+      "mean_ms": 7.773544002266135,
+      "p50_ms": 7.588150008814409,
+      "p95_ms": 9.116544964490458,
+      "fps_mean": 128.64145359034194,
+      "pre_ms": 1.352214498911053,
+      "infer_ms": 5.044040500069968,
+      "post_ms": 1.3772890032851137
+    },
+    {
+      "model": "yolox_s",
+      "input": 640,
+      "provider_requested": "cpu",
+      "provider_used": "CPUExecutionProvider",
+      "frames": 200,
+      "mean_ms": 114.86507149995305,
+      "p50_ms": 112.73264998453669,
+      "p95_ms": 126.39197495882394,
+      "fps_mean": 8.705866691602667,
+      "pre_ms": 2.5898569988203235,
+      "infer_ms": 109.39165699994192,
+      "post_ms": 2.8835575011908077
+    },
+    {
+      "model": "yolox_s",
+      "input": 640,
+      "provider_requested": "dml",
+      "provider_used": "DmlExecutionProvider",
+      "frames": 200,
+      "mean_ms": 13.462138000468258,
+      "p50_ms": 13.329550012713298,
+      "p95_ms": 15.37929498590529,
+      "fps_mean": 74.2824059570045,
+      "pre_ms": 2.148749001789838,
+      "infer_ms": 8.861858997261152,
+      "post_ms": 2.451530001417268
+    }
+  ]
+}

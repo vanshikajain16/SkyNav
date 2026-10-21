@@ -105,6 +105,7 @@ def run_filter(seq: Sequence, vo: dict, mode: str = "estscale", cfg: FilterConfi
         out_s[k] = f.s if (est_scale and scale_ready) else np.nan    # scale (NaN until initialised)
         out_ss[k] = np.sqrt(f.P[15, 15]) if (est_scale and scale_ready) else np.nan   # scale sigma
         out_ba[k], out_bg[k] = f.ba, f.bg                            # biases
+    out_valid &= (t_c >= seq.gt.t_ns[0]) & (t_c <= seq.gt.t_ns[-1])  # frames without ground truth are never scored
     if verbose:                                                      # summary
         print(f"[{mode}] frames {int(out_valid.sum())}, updates applied {n_upd}, "
               f"noise-inflated (chi2 gate exceeded) {f.n_gated}")    # counts
@@ -116,11 +117,14 @@ def main():                                                          # CLI entry
     ap = argparse.ArgumentParser()                                   # parser
     ap.add_argument("--dataset", default="tumvi_room1")              # dataset key
     ap.add_argument("--mode", default="estscale", choices=["imuonly", "gtrel", "gtscale", "estscale"])   # mode
+    ap.add_argument("--frontend", default="lk", choices=["lk", "orb", "sift"])   # which VO output feeds the filter
     a = ap.parse_args()                                              # parse
     seq = Sequence(a.dataset)                                        # data
-    vo = dict(np.load(PROJECT_ROOT / "results" / f"vo_{a.dataset}.npz"))   # VO output
+    from vo.run_vo import out_path                                   # VO result naming
+    vo = dict(np.load(out_path(a.dataset, a.frontend)))              # VO output
     out = run_filter(seq, vo, a.mode)                                # run
-    np.savez(PROJECT_ROOT / "results" / f"vio_{a.mode}_{a.dataset}.npz", **out)   # save
+    tag = "" if a.frontend == "lk" else f"{a.frontend}_"             # keep the LK file names unchanged
+    np.savez(PROJECT_ROOT / "results" / f"vio_{tag}{a.mode}_{a.dataset}.npz", **out)   # save
     ok = out["valid"]                                                # valid frames
     err = np.linalg.norm(out["T_w_c"][ok, :3, 3] - out["gt_cam"][ok, :3, 3], axis=1)   # unaligned position error
     print(f"[{a.mode}] unaligned position RMSE vs GT: {np.sqrt(np.mean(err ** 2)):.4f} m; final error {err[-1]:.3f} m")   # summary

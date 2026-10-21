@@ -1,0 +1,50 @@
+{
+  "frontend": "orb",
+  "filter_config": {
+    "sigma_r": 0.01,
+    "sigma_t_rel": 0.02,
+    "sigma_t_floor": 0.005,
+    "gate_chi2": 12.59,
+    "update_every": 5,
+    "n_scale_init": 4,
+    "scale_init_rel_sigma": 0.3,
+    "scale_rw": 0.05,
+    "p0_sigma": 0.01,
+    "v0_sigma": 0.05,
+    "th0_sigma": 0.01,
+    "ba0_sigma": 0.2,
+    "bg0_sigma": 0.02
+  },
+  "sanity_zup_world_specific_force": [
+    0.12967074582863336,
+    0.09122173400385575,
+    9.757006550161611
+  ],
+  "sanity_imu_only_error_m": {
+    "1s": 0.02601808059467462,
+    "2s": 0.11049631464430869,
+    "5s": 0.6702354674196186,
+    "10s": 2.7277458157418346,
+    "30s": 25.153955392266372
+  },
+  "sanity_gt_relative_default_noise_unaligned_rmse_m": 0.1491997272637743,
+  "sanity_gt_relative_tight_noise_unaligned_rmse_m": 0.15140191248919488,
+  "evo_ate_rmse_m": {
+    "vision_only_oracle_sim3_per_segment (evo, no further alignment)": 0.432885,
+    "fused_4b_all_frames_unaligned": 7.396559,
+    "fused_4b_all_frames_se3": 6.38456,
+    "fused_4b_on_vision_frames_unaligned": 6.79709,
+    "fused_4b_on_vision_frames_se3": 5.738811,
+    "fused_4a_gtscale_PLUMBING_ONLY_se3": 1.017531
+  },
+  "fused_4b_per_segment_se3_rmse_m": 1.816520775688688,
+  "scale_median_abs_rel_err_vs_segment_ref": 0.41345781706877416,
+  "counts": {
+    "frames": 2821,
+    "filter_frames": 2706,
+    "vision_frames_scored": 1945,
+    "segments": 24,
+    "updates_4b": 399,
+    "noise_inflated_4b": 346
+  }
+}
